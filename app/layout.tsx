@@ -1,6 +1,9 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+export const metadata = {
+  title: "Barber",
+  description: "Reserva tu cita",
+};
+// ...
+<div className="text-xl font-semibold">Barber</div>
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
