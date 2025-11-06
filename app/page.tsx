@@ -83,3 +83,12 @@ export default function Page() {
     </section>
   );
 }
+export default function Page() {
+  return (
+    <main style={{ padding: 20 }}>
+      <h1>PRUEBA DEPLOY Barber</h1>
+      <p>Si ves este texto, el despliegue tomó los cambios.</p>
+      <p>{new Date().toISOString()}</p>
+    </main>
+  );
+}
